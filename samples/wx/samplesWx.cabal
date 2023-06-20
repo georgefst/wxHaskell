@@ -74,6 +74,16 @@ executable FileBrowse
   ghc-options:         -Wall
 
 
+executable FilePicker
+  main-is:             FilePicker.hs
+  build-depends:       base,
+                       wx
+  default-language:    Haskell2010
+  default-extensions:  BlockArguments
+                       RecordWildCards
+  ghc-options:         -Wall
+
+
 executable Grid
   main-is:             Grid.hs
   build-depends:       base,
